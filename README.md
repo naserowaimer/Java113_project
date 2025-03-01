@@ -1,27 +1,16 @@
 # Java CSC113 Project - Phase 1 and 2
 
 ## Project Overview
-Welcome to the Java CSC113 Project! This project is designed to provide hands-on experience in creating a Java program from design to implementation.
+This project is for course CSC113, in the second semester of 2024-2025 study-year at KSU.
 
 ## Project Title
-Java Project Phase 1 and Phase 2
+Library System
 
 ## Project Description
-In this project, you will create a Java program using the skills and topics learned during the course. The program should support user interaction (menu-style input-output) and provide several services for the user. Example projects include:
-- Hotel reservation system
-- Library management system
-- Online restaurant ordering system
-- Bank management system
+In this project, I will create a Java program using the skills and topics I learned during the course. The program will support user interaction (menu-style input-output) and provide several services for the user.
 
 ## Project Phase 1 Requirements
-For detailed requirements, please refer to the [Project Phase 1 Requirements PDF](https://github.com/naserowaimer/Java113_project/blob/main/CSC%20113_Project_Phase_1.pdf).
+For detailed requirements, refer to the [Project Phase 1 Requirements PDF](https://github.com/naserowaimer/Java113_project/blob/main/CSC%20113_Project_Phase_1.pdf).
 
-## Submission Guidelines
-For submission guidelines, please refer to the [Submission Guidelines](SUBMISSION_GUIDELINES.md).
-
-Your submission should include:
-1. UML Diagram
-2. Source code (compressed in ZIP format)
-3. Sample run screenshots
-
-**Good luck with your project!**
+## Submission Report for Phase 1
+For submission report, please refer to the [Submission Report](report#1.md).
