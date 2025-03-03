@@ -13,4 +13,4 @@ In this project, I will create a Java program using the skills and topics I lear
 For detailed requirements, refer to the [Project Phase 1 Requirements PDF](https://github.com/naserowaimer/Java113_project/blob/main/CSC%20113_Project_Phase_1.pdf).
 
 ## Submission Report for Phase 1
-For submission report, please refer to the [Submission Report](report#1.md).
+For submission report, please refer to the [Submission Report](phase_1/report.md).
