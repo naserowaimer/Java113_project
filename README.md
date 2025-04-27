@@ -14,3 +14,11 @@ For detailed requirements, refer to the [Project Phase 1 Requirements PDF](https
 
 ## Submission Report for Phase 1
 For submission report, please refer to the [Submission Report](phase1/report.md).
+
+## Project Phase 2 Requirements
+
+For detailed requirements, refer to the [Project Phase 2 Requirements PDF](https://github.com/naserowaimer/Java113_project/blob/main/CSC%20113_Project_Phase_2.pdf).
+
+
+## Submission Report for Phase 2
+For submission report, please refer to the [Submission Report](phase2/report.md).
