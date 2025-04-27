@@ -8,17 +8,28 @@
 - **Division number**: 77965
 
 ## Introduction
-A comprehensive system for managing various types of business events and manufacturing expos. Key features:
-- Multiple venue types management
-- Multiple tickets system
-- Visitors tracking system
-- Event sponsorship
-- Revenue calculation
+This phase of the Business Event Management System project enhances the previous version by incorporating several key features:
+- **Graphical User Interface (GUI):** A user-friendly interface has been implemented using Java Swing, providing a more intuitive way to interact with the system.
+- **Exception Handling:** The system now includes robust exception handling to manage potential errors, including checked, unchecked, and a custom user-defined exception.
+- **File Handling:** Functionality to save system data to a file and read data from a file has been added, allowing for data persistence.
+- **Linked List Implementation:** One of the arrays used in Phase 1 has been replaced with a linked list to manage data more dynamically.
 
 ## UML Diagram
 ![UML Diagram](./UML.png)
 
 ## Implementation Details
+
+### GUI Implementation
+The system now features a Graphical User Interface built with Java Swing. The GUI is designed with at least two main frames: one for user input and another for displaying results. Action events are handled to respond to user interactions with GUI components such as buttons and text fields.
+
+### File Handling
+The system implements file handling to save and load data. This allows the state of venues, events, tickets, sponsors, and visitors to be persisted between program executions.
+
+### Exception Handling
+Various types of exceptions are handled within the system to ensure graceful error management. This includes handling potential issues during file operations, user input validation, and other runtime scenarios. A user-defined exception has also been implemented to address specific application-level errors.
+
+### Linked List Usage
+One of the arrays from Phase 1 has been replaced with a linked list implementation. This change provides more flexibility in managing dynamic collections of objects within the system.
 
 ### Abstract Class Venue
 - **Attributes**:
@@ -124,8 +135,6 @@ A comprehensive system for managing various types of business events and manufac
 ## Source Code
 [Download Here](./SourceCode.zip)
 
-## Sample Run
-![Sample Run1](sample1.png)
-![Sample Run2](sample2.png)
-![Sample Run3](sample3.png)
+## GUI screen shot
+![Screenshot](img.png)
 

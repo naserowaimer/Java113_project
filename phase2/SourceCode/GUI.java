@@ -13,16 +13,7 @@ public class GUI extends JFrame implements ActionListener { // Changed to public
     private JButton addVenueButton;
     private JButton addEventButton;
     private JButton addTicketButton;
-    private JButton createSponsorButton;
-    private JButton addSponsorButton;
-    private JButton createVisitorButton;
-    private JButton calculateRevenueButton;
-    private JButton displayTicketButton;
-    private JButton listEventsButton;
-    private JButton removeEventButton;
-    private JButton searchEventButton;
     private JButton printToFileButton;
-    private JButton readFromFileButton;
     private JButton exitButton;
 
 
@@ -47,32 +38,14 @@ public class GUI extends JFrame implements ActionListener { // Changed to public
         addVenueButton.addActionListener(this);
         addEventButton.addActionListener(this);
         addTicketButton.addActionListener(this);
-        createSponsorButton.addActionListener(this);
-        addSponsorButton.addActionListener(this);
-        createVisitorButton.addActionListener(this);
-        calculateRevenueButton.addActionListener(this);
-        displayTicketButton.addActionListener(this);
-        listEventsButton.addActionListener(this);
-        removeEventButton.addActionListener(this);
-        searchEventButton.addActionListener(this);
         printToFileButton.addActionListener(this);
-        readFromFileButton.addActionListener(this);
         exitButton.addActionListener(this);
 
         // Add buttons to the pane
         pane.add(addVenueButton);
         pane.add(addEventButton);
         pane.add(addTicketButton);
-        pane.add(createSponsorButton);
-        pane.add(addSponsorButton);
-        pane.add(createVisitorButton);
-        pane.add(calculateRevenueButton);
-        pane.add(displayTicketButton);
-        pane.add(listEventsButton);
-        pane.add(removeEventButton);
-        pane.add(searchEventButton);
         pane.add(printToFileButton);
-        pane.add(readFromFileButton);
         pane.add(exitButton);
 
         setVisible(true); // Make the window visible
@@ -88,26 +61,8 @@ public class GUI extends JFrame implements ActionListener { // Changed to public
             VenueTest.addEvent();
         } else if (source == addTicketButton) {
             VenueTest.addTicketToEvent();
-        } else if (source == createSponsorButton) {
-            VenueTest.createSponser(); // Calls the GUI-enabled version
-        } else if (source == addSponsorButton) {
-            VenueTest.addSponsorToEvent();
-        } else if (source == createVisitorButton) {
-            VenueTest.createVisitorAndBuyTicket();
-        } else if (source == calculateRevenueButton) {
-            VenueTest.calculateEventRevenue();
-        } else if (source == displayTicketButton) {
-            VenueTest.displayTicketDetails(); // Requires Ticket class refactoring
-        } else if (source == listEventsButton) {
-            VenueTest.listEventsForVenue();
-        } else if (source == removeEventButton) {
-            VenueTest.removeEventFromVenue();
-        } else if (source == searchEventButton) {
-            VenueTest.searchEventInVenue(); // Requires findEvent in Venue
         } else if (source == printToFileButton) {
             VenueTest.printVenuesToFile(); // Uses shared file method
-        } else if (source == readFromFileButton) {
-             VenueTest.readOutputFile(); // Uses GUI version
         } else if (source == exitButton) {
             System.exit(0); // Exit the application
         }
